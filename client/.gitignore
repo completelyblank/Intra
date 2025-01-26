@@ -1,0 +1,43 @@
+# React Native dependencies
+node_modules/
+*.log
+*.swp
+*.lock
+.expo/
+.expo-shared/
+ios/Pods/
+ios/build/
+android/.gradle/
+android/app/build/
+android/build/
+android/.idea/
+android/local.properties
+android/settings.gradle
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Build output
+*.apk
+*.aab
+
+# React Native cache
+__MACOSX
+*.tmp
+.cache/
+*.keystore
+metro.config.js
+expo-app.config.js
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+*.egg-info/
+*.egg/
