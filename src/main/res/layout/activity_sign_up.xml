@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity"
+    android:orientation="vertical"
+    android:background="@drawable/network"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/imageView"
+            android:src="@drawable/intra"/>
+
+        <!-- Username Field -->
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtUsername"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:hint="Username"
+            android:inputType="textPersonName"
+            android:padding="12dp"
+            android:background="@drawable/neon_border"
+            android:textColor="@color/neon_teal"
+            android:textColorHint="@color/teal_light"/>
+
+        <!-- Email Field -->
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtEmail"
+            android:layout_marginBottom="10dp"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:padding="12dp"
+            android:background="@drawable/neon_border"
+            android:textColor="@color/neon_teal"
+            android:textColorHint="@color/teal_light"/>
+
+        <!-- Password Field -->
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtPassword"
+            android:layout_marginBottom="15dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="12dp"
+            android:background="@drawable/neon_border"
+            android:textColor="@color/neon_teal"
+            android:textColorHint="@color/teal_light"/>
+
+        <!-- Sign Up Button -->
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnSignUp"
+            android:text="Sign Up"
+            android:backgroundTint="@color/neon_teal"
+            android:textColor="@color/black"
+            android:padding="12dp"
+            android:layout_marginBottom="15dp"
+            />
+
+        <!-- OR Divider -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OR"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- Social Login Buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="10dp">
+
+            <!-- Google Login Button -->
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnGoogle"
+                android:text="Google"
+                android:backgroundTint="@color/dark_gray"
+                android:textColor="@color/white"
+                android:padding="15dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/ic_google"
+                android:layout_marginEnd="10dp"
+                app:cornerRadius="8dp"/>
+
+            <!-- Facebook Login Button -->
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnFacebook"
+                android:text="Facebook"
+                android:backgroundTint="@color/fb_color"
+                android:textColor="@color/white"
+                android:padding="15dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/ic_facebook"
+                android:layout_marginStart="10dp"
+                app:cornerRadius="8dp"/>
+        </LinearLayout>
+
+        <!-- Sign Up With Phone -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtSignUpPhone"
+            android:layout_marginTop="15dp"
+            android:text="Sign Up With Phone"
+            android:textColor="@color/neon_teal"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:padding="12dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
