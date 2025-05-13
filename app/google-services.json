@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "193398216251",
+    "project_id": "intra-bbd46",
+    "storage_bucket": "intra-bbd46.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:193398216251:android:94450456bcc1161481ae1e",
+        "android_client_info": {
+          "package_name": "com.example.intra"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2DGa9QkbY2mGXCX-ZsJ8hq7pZEg3Hq6I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

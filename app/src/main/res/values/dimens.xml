@@ -1,0 +1,4 @@
+<!-- res/values/dimens.xml -->
+<resources>
+    <dimen name="max_message_width">180dp</dimen>
+</resources>

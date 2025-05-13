@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Intra</string>
+    <string name="hello_blank_fragment">Hello Blank Fragment</string>
+    <string name="don_t_have_an_account_sign_up">Don\'t have an account? Sign Up</string>
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="or">OR</string>
+    <string name="sign_in">Sign In</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="todo">TODO</string>
+    <string name="background_image">Background Image</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_have_an_account_login">Already have an account? Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="confirmpassword">Password</string>
+    <string name="full_name">Full Name</string>
+    <string name="email_add">Email</string>
+    <string name="create_an_account">Create an Account</string>
+    <string name="instant_messenger">Instant Messenger</string>
+    <string name="this_will_be_the_home_screen">This will be the home screen</string>
+    <string name="logout">Logout</string>
+    <string name="talk_smart_talk_intra">Talk Smart. Talk Intra.</string>
+    <string name="contacts">Contacts</string>
+    <string name="search_contact">Search Contact</string>
+    <string name="chats">Chats</string>
+    <string name="unarchived_chats">Unarchived Chats</string>
+</resources>

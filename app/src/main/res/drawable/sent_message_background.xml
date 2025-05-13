@@ -1,0 +1,23 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Shadow for elevation -->
+    <item
+        android:left="2dp"
+        android:right="2dp"
+        android:top="2dp"
+        android:bottom="4dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#15000000"/>
+            <corners android:radius="24dp"/>
+        </shape>
+    </item>
+    <!-- Main shape with gradient -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="#9B59B6"
+                android:endColor="#6C3483"
+                android:angle="45"/>
+            <corners android:radius="24dp"/>
+        </shape>
+    </item>
+</layer-list>
