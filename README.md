@@ -40,9 +40,9 @@ In today’s digital era, instant communication is essential. Intra was created 
 4. Build and run on an Android device or emulator (API Level 34 recommended).
 
 ## Screenshots
-![Login](https://github.com/user-attachments/assets/b83dedce-d07d-483f-992a-1146812335a0)
-![Signup](https://github.com/user-attachments/assets/6f9025a9-4608-4058-99ce-1c253dd1e38c)
-![Contact List](https://github.com/user-attachments/assets/ea92c248-2b24-4c57-8fb4-84af60e61898)
+| Login | Signup | Contact List |
+|-------|--------|--------------|
+| ![Login](https://github.com/user-attachments/assets/b83dedce-d07d-483f-992a-1146812335a0) | ![Signup](https://github.com/user-attachments/assets/6f9025a9-4608-4058-99ce-1c253dd1e38c) | ![Contact List](https://github.com/user-attachments/assets/ea92c248-2b24-4c57-8fb4-84af60e61898) |
 
 
 ## Requirements
@@ -50,7 +50,8 @@ In today’s digital era, instant communication is essential. Intra was created 
 - **Software**: Android Studio, Java SDK, Firebase Console, Supabase, Firestore.
 
 ## System Diagram
-![System Architecture](path/to/system_diagram.png)
+![System Design](https://github.com/user-attachments/assets/e4f130d6-e23c-4ef3-b7cf-1fac3a0d5116)
+
 
 ## References
 - [Firebase Documentation](https://firebase.google.com/docs)
