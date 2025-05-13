@@ -1,3 +1,6 @@
+![intra](https://github.com/user-attachments/assets/443dfa2d-574a-4fde-a550-18d790e56501)
+
+
 # Intra - Instant Messenger Android Application
 
 ## Overview
